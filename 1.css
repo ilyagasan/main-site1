@@ -1,0 +1,22 @@
+#unic,  .classs-name {
+    font-size: xx-large;/* размер шрифта */
+    font-weight: 800;/* толщина шрифта */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;/* шрифт */
+    flex-direction: column;/* направление изгиба */
+} 
+.one .btn /* вложенность  */
+{
+    color: red;
+}
+/* полная стилизаация */
+* {
+    color: red;
+}
+/* + после ID TOP должен идти праграф */
+#top + p{
+    color:red;
+}
+/* все праграфы которые находятся под ID sTOP */  
+#top ~ p{
+    color:red;
+}   
